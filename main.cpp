@@ -10,6 +10,13 @@ public:
         cin >> answer;
         return answer;
     }
+
+    int getInt(string prompt){
+        cout << prompt << endl;
+        int answer;
+        cin >> answer;
+        return answer;
+    }
 };
 
 
