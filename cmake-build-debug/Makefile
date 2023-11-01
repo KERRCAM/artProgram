@@ -129,6 +129,30 @@ artProgram/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/artProgram.dir/build.make CMakeFiles/artProgram.dir/build
 .PHONY : artProgram/fast
 
+loginSignup.o: loginSignup.cpp.o
+.PHONY : loginSignup.o
+
+# target to build an object file
+loginSignup.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/artProgram.dir/build.make CMakeFiles/artProgram.dir/loginSignup.cpp.o
+.PHONY : loginSignup.cpp.o
+
+loginSignup.i: loginSignup.cpp.i
+.PHONY : loginSignup.i
+
+# target to preprocess a source file
+loginSignup.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/artProgram.dir/build.make CMakeFiles/artProgram.dir/loginSignup.cpp.i
+.PHONY : loginSignup.cpp.i
+
+loginSignup.s: loginSignup.cpp.s
+.PHONY : loginSignup.s
+
+# target to generate assembly for a file
+loginSignup.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/artProgram.dir/build.make CMakeFiles/artProgram.dir/loginSignup.cpp.s
+.PHONY : loginSignup.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... artProgram"
+	@echo "... loginSignup.o"
+	@echo "... loginSignup.i"
+	@echo "... loginSignup.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

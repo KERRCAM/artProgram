@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/kerrcameron/Documents/COMP SCI/artProgram/cmake-build-debug/loginSignup.cpp" "/Users/kerrcameron/Documents/COMP SCI/artProgram/cmake-build-debug/CMakeFiles/artProgram.dir/loginSignup.cpp.o"
   "/Users/kerrcameron/Documents/COMP SCI/artProgram/main.cpp" "/Users/kerrcameron/Documents/COMP SCI/artProgram/cmake-build-debug/CMakeFiles/artProgram.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

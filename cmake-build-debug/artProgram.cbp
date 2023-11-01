@@ -78,6 +78,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/kerrcameron/Documents/COMP SCI/artProgram/cmake-build-debug/loginSignup.cpp">
+			<Option target="artProgram"/>
+		</Unit>
+		<Unit filename="/Users/kerrcameron/Documents/COMP SCI/artProgram/cmake-build-debug/loginSignup.h">
+			<Option target="artProgram"/>
+		</Unit>
 		<Unit filename="/Users/kerrcameron/Documents/COMP SCI/artProgram/main.cpp">
 			<Option target="artProgram"/>
 		</Unit>
