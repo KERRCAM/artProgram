@@ -83,25 +83,36 @@ public:
     }
 
     void deleteFolder(){
+        bool found = false;
         for (int i = 0; i < 10; i++){
-            cout << "Folder " << i << ":" << folderNames[i] << "\n";
-        }
-        bool validFolder = false;
-        while (validFolder == false) {
-            string folder = CM.getString("Please enter name of Folder to be deleted (Note deleting a folder just deletes it off the program folder list, not your system, no data is lost)");
-            for (int i = 0; i < 10; i++) {
-                if (folder == folderNames[i]) {
-                    validFolder = true;
-                }
+            cout << "Folder " << i << ":" <<folderNames[i] << "\n";
+            if (folderNames[i] != ""){
+                found = true;
             }
         }
-        if (validFolder = true){
-            bool confirmed = false;
-            string confirmation = CM.getString("Please type CONFIRM to delete the folder or CANCEL to stop");
-            if (confirmation == "CONFIRM"){
-                cout << 0 << endl; // put in actual deletion method call once made
-            }else{
-                cout << "Folder deletion canceled" << endl;
+        if (found == false){
+            cout << "No folders exist to be deleted" << endl;
+        }else {
+            for (int i = 0; i < 10; i++){
+                cout << "Folder " << i << ":" << folderNames[i] << "\n";
+            }
+            bool validFolder = false;
+            while (validFolder == false) {
+                string folder = CM.getString("Please enter name of Folder to be deleted (Note deleting a folder just deletes it off the program folder list, not your system, no data is lost)");
+                for (int i = 0; i < 10; i++) {
+                    if (folder == folderNames[i]) {
+                        validFolder = true;
+                    }
+                }
+            }
+            if (validFolder = true){
+                bool confirmed = false;
+                string confirmation = CM.getString("Please type CONFIRM to delete the folder or CANCEL to stop");
+                if (confirmation == "CONFIRM"){
+                    cout << 0 << endl; // put in actual deletion method call once made
+                }else{
+                    cout << "Folder deletion canceled" << endl;
+                }
             }
         }
     }
