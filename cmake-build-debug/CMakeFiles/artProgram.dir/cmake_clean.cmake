@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/artProgram.dir/loginSignup.cpp.o"
-  "CMakeFiles/artProgram.dir/main.cpp.o"
-  "artProgram"
+  "CMakeFiles/artProgram.dir/main.cpp.obj"
+  "artProgram.exe"
+  "artProgram.exe.manifest"
+  "artProgram.lib"
   "artProgram.pdb"
 )
 
