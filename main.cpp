@@ -35,8 +35,26 @@ class folderSelect{
     string folderNames[10] = {"","","","","","","","","",""};
 
 private:
+
+
+    void csfSplitter(string line){
+        string fileNames[10] = {"","","","","","","","","",""};
+        for (int i; i < line.length(); i++){
+            //need to recognise a comma and put file name between commas into list
+            //probably best to use recursion
+        }
+    }
+
     void readFolder(string folderName){
-        ifstream MyReadFile(folderName);
+        string folderContents;
+        int fileNum;
+        ifstream folderReader(folderName);
+        while (getline (folderReader, folderContents)) {
+            csfSplitter(folderContents);
+        }
+
+
+        folderReader.close();
     }
 
 
@@ -45,7 +63,7 @@ public:
         bool found = false;
         bool validFolder = false;
         for (int i = 0; i < 10; i++){
-            cout << "Folder " << i << ":" <<folderNames[i] << "\n";
+            cout << "Folder " << i << ":" << folderNames[i] << "\n";
             if (folderNames[i] != ""){
                 found = true;
             }
