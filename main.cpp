@@ -37,7 +37,7 @@ class folderSelect{
 private:
 
 
-    void csfSplitter(string line){
+    void csvSplitter(string line){
         string fileNames[10] = {"","","","","","","","","",""};
         for (int i; i < line.length(); i++){
             //need to recognise a comma and put file name between commas into list
@@ -50,7 +50,7 @@ private:
         int fileNum;
         ifstream folderReader(folderName);
         while (getline (folderReader, folderContents)) {
-            csfSplitter(folderContents);
+            csvSplitter(folderContents);
         }
 
 
