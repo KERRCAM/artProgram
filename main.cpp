@@ -2,7 +2,7 @@
 #include <fstream>
 using namespace std;
 //make folders (up to 10), folders contain canvases (up to any number), everything in cavases done by shortcuts (aiming to be for quick prototyping, so speed over advanced features)
-
+//folders - actually just txt file containing names of all related files
 class coreMethods{
 
 public:
@@ -34,6 +34,12 @@ class folderSelect{
     coreMethods CM;
     string folderNames[10] = {"","","","","","","","","",""};
 
+private:
+    void readFolder(string folderName){
+        ifstream MyReadFile(folderName);
+    }
+
+
 public:
     void openFolder(){
         bool found = false;
@@ -57,9 +63,10 @@ public:
                 }
                 if (validFolder == false){
                     cout << "Folder name entered incorrectly" << endl;
+                } else{
+                    readFolder(selected);
                 }
             }
-            //method call with name argument to open folder
         }
     }
 
@@ -78,7 +85,7 @@ public:
             cout << "No space for new folder. Please delete existing folder to make room for new folder." << endl;
         } else{
             folderNames[space] = newFolder;
-            // call method for actually making new folder
+            ofstream folder("filename.txt");
         }
     }
 
