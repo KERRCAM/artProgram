@@ -4,7 +4,12 @@
 
 using namespace std;
 //make folders (up to 10), folders contain canvases (up to any number), everything in cavases done by shortcuts (aiming to be for quick prototyping, so speed over advanced features)
-//folders - actually just txt file containing names of all related files
+/*
+Database
+folders(folderID, folderName)
+files(folderID, fileID, fileName)
+--do saved colour storage in text file
+*/
 class coreMethods{
 
 public:
