@@ -56,11 +56,8 @@ private:
                 fileNames[count] = v[i];
             }
         }
-
-
         folderReader.close();
     }
-
 
 public:
     void openFolder(){
@@ -72,7 +69,6 @@ public:
                 found = true;
             }
         }
-
         if (found == false){
             cout << "No folder exist yet to be opened. Please create a folder." << endl;
         }else{
@@ -81,6 +77,7 @@ public:
                 for (int i = 0; i < 10; i++) {
                     if (selected == folderNames[i]) {
                         validFolder = true;
+                        readFolder(selected);
                     }
                 }
                 if (validFolder == false){
