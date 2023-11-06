@@ -1,5 +1,7 @@
 #include <iostream>
 #include <fstream>
+#include <sstream>
+
 using namespace std;
 //make folders (up to 10), folders contain canvases (up to any number), everything in cavases done by shortcuts (aiming to be for quick prototyping, so speed over advanced features)
 //folders - actually just txt file containing names of all related files
@@ -35,22 +37,24 @@ class folderSelect{
     string folderNames[10] = {"","","","","","","","","",""};
 
 private:
-
-
-    void csvSplitter(string line){
+    void readFolder(string folderName){ //may be easier to store file names in database along with folder too
         string fileNames[10] = {"","","","","","","","","",""};
-        for (int i; i < line.length(); i++){
-            //need to recognise a comma and put file name between commas into list
-            //probably best to use recursion
-        }
-    }
-
-    void readFolder(string folderName){
         string folderContents;
         int fileNum;
         ifstream folderReader(folderName);
         while (getline (folderReader, folderContents)) {
-            csvSplitter(folderContents);
+            int count = 0;
+            vector<string> v;
+            stringstream ss(folderContents);
+            while (ss.good()) {
+                string substr;
+                getline(ss, substr, ',');
+                v.push_back(substr);
+            }
+            for (size_t i = 0; i < v.size(); i++){
+                count++;
+                fileNames[count] = v[i];
+            }
         }
 
 
