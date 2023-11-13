@@ -1,6 +1,4 @@
 #include <iostream>
-#include <fstream>
-#include <sstream>
 #include "coreMethods.h"
 #include "paintMethods.h"
 #include "folderSelect.h"
