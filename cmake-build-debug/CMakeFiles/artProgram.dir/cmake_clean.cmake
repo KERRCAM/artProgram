@@ -1,8 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/artProgram.dir/main.cpp.obj"
-  "artProgram.exe"
-  "artProgram.exe.manifest"
-  "artProgram.lib"
+  "CMakeFiles/artProgram.dir/coreMethods.cpp.o"
+  "CMakeFiles/artProgram.dir/folderSelect.cpp.o"
+  "CMakeFiles/artProgram.dir/main.cpp.o"
+  "CMakeFiles/artProgram.dir/paintMethods.cpp.o"
+  "artProgram"
   "artProgram.pdb"
 )
 

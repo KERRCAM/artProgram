@@ -3,4 +3,4 @@ project(artProgram)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(artProgram main.cpp)
+add_executable(artProgram main.cpp main.cpp paintMethods.cpp paintMethods.h coreMethods.cpp coreMethods.h folderSelect.cpp folderSelect.h)

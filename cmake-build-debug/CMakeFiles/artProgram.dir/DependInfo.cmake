@@ -8,9 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Kerr Cameron/CLionProjects/artProgram/main.cpp" "C:/Users/Kerr Cameron/CLionProjects/artProgram/cmake-build-debug/CMakeFiles/artProgram.dir/main.cpp.obj"
+  "/Users/kerrcameron/Documents/COMP SCI/artProgram/coreMethods.cpp" "/Users/kerrcameron/Documents/COMP SCI/artProgram/cmake-build-debug/CMakeFiles/artProgram.dir/coreMethods.cpp.o"
+  "/Users/kerrcameron/Documents/COMP SCI/artProgram/folderSelect.cpp" "/Users/kerrcameron/Documents/COMP SCI/artProgram/cmake-build-debug/CMakeFiles/artProgram.dir/folderSelect.cpp.o"
+  "/Users/kerrcameron/Documents/COMP SCI/artProgram/main.cpp" "/Users/kerrcameron/Documents/COMP SCI/artProgram/cmake-build-debug/CMakeFiles/artProgram.dir/main.cpp.o"
+  "/Users/kerrcameron/Documents/COMP SCI/artProgram/paintMethods.cpp" "/Users/kerrcameron/Documents/COMP SCI/artProgram/cmake-build-debug/CMakeFiles/artProgram.dir/paintMethods.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "MSVC")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

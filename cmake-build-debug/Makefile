@@ -129,29 +129,53 @@ artProgram/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/artProgram.dir/build.make CMakeFiles/artProgram.dir/build
 .PHONY : artProgram/fast
 
-loginSignup.o: loginSignup.cpp.o
-.PHONY : loginSignup.o
+coreMethods.o: coreMethods.cpp.o
+.PHONY : coreMethods.o
 
 # target to build an object file
-loginSignup.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/artProgram.dir/build.make CMakeFiles/artProgram.dir/loginSignup.cpp.o
-.PHONY : loginSignup.cpp.o
+coreMethods.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/artProgram.dir/build.make CMakeFiles/artProgram.dir/coreMethods.cpp.o
+.PHONY : coreMethods.cpp.o
 
-loginSignup.i: loginSignup.cpp.i
-.PHONY : loginSignup.i
+coreMethods.i: coreMethods.cpp.i
+.PHONY : coreMethods.i
 
 # target to preprocess a source file
-loginSignup.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/artProgram.dir/build.make CMakeFiles/artProgram.dir/loginSignup.cpp.i
-.PHONY : loginSignup.cpp.i
+coreMethods.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/artProgram.dir/build.make CMakeFiles/artProgram.dir/coreMethods.cpp.i
+.PHONY : coreMethods.cpp.i
 
-loginSignup.s: loginSignup.cpp.s
-.PHONY : loginSignup.s
+coreMethods.s: coreMethods.cpp.s
+.PHONY : coreMethods.s
 
 # target to generate assembly for a file
-loginSignup.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/artProgram.dir/build.make CMakeFiles/artProgram.dir/loginSignup.cpp.s
-.PHONY : loginSignup.cpp.s
+coreMethods.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/artProgram.dir/build.make CMakeFiles/artProgram.dir/coreMethods.cpp.s
+.PHONY : coreMethods.cpp.s
+
+folderSelect.o: folderSelect.cpp.o
+.PHONY : folderSelect.o
+
+# target to build an object file
+folderSelect.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/artProgram.dir/build.make CMakeFiles/artProgram.dir/folderSelect.cpp.o
+.PHONY : folderSelect.cpp.o
+
+folderSelect.i: folderSelect.cpp.i
+.PHONY : folderSelect.i
+
+# target to preprocess a source file
+folderSelect.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/artProgram.dir/build.make CMakeFiles/artProgram.dir/folderSelect.cpp.i
+.PHONY : folderSelect.cpp.i
+
+folderSelect.s: folderSelect.cpp.s
+.PHONY : folderSelect.s
+
+# target to generate assembly for a file
+folderSelect.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/artProgram.dir/build.make CMakeFiles/artProgram.dir/folderSelect.cpp.s
+.PHONY : folderSelect.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -177,6 +201,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/artProgram.dir/build.make CMakeFiles/artProgram.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+paintMethods.o: paintMethods.cpp.o
+.PHONY : paintMethods.o
+
+# target to build an object file
+paintMethods.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/artProgram.dir/build.make CMakeFiles/artProgram.dir/paintMethods.cpp.o
+.PHONY : paintMethods.cpp.o
+
+paintMethods.i: paintMethods.cpp.i
+.PHONY : paintMethods.i
+
+# target to preprocess a source file
+paintMethods.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/artProgram.dir/build.make CMakeFiles/artProgram.dir/paintMethods.cpp.i
+.PHONY : paintMethods.cpp.i
+
+paintMethods.s: paintMethods.cpp.s
+.PHONY : paintMethods.s
+
+# target to generate assembly for a file
+paintMethods.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/artProgram.dir/build.make CMakeFiles/artProgram.dir/paintMethods.cpp.s
+.PHONY : paintMethods.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +234,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... artProgram"
-	@echo "... loginSignup.o"
-	@echo "... loginSignup.i"
-	@echo "... loginSignup.s"
+	@echo "... coreMethods.o"
+	@echo "... coreMethods.i"
+	@echo "... coreMethods.s"
+	@echo "... folderSelect.o"
+	@echo "... folderSelect.i"
+	@echo "... folderSelect.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... paintMethods.o"
+	@echo "... paintMethods.i"
+	@echo "... paintMethods.s"
 .PHONY : help
 
 
