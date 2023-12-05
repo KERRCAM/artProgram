@@ -105,25 +105,25 @@ CMakeFiles/artProgram.dir/coreMethods.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/artProgram.dir/coreMethods.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/kerrcameron/Documents/COMP SCI/artProgram/coreMethods.cpp" -o CMakeFiles/artProgram.dir/coreMethods.cpp.s
 
-CMakeFiles/artProgram.dir/folderSelect.cpp.o: CMakeFiles/artProgram.dir/flags.make
-CMakeFiles/artProgram.dir/folderSelect.cpp.o: ../folderSelect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kerrcameron/Documents/COMP SCI/artProgram/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/artProgram.dir/folderSelect.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/artProgram.dir/folderSelect.cpp.o -c "/Users/kerrcameron/Documents/COMP SCI/artProgram/folderSelect.cpp"
+CMakeFiles/artProgram.dir/folderMethods.cpp.o: CMakeFiles/artProgram.dir/flags.make
+CMakeFiles/artProgram.dir/folderMethods.cpp.o: ../folderMethods.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kerrcameron/Documents/COMP SCI/artProgram/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/artProgram.dir/folderMethods.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/artProgram.dir/folderMethods.cpp.o -c "/Users/kerrcameron/Documents/COMP SCI/artProgram/folderMethods.cpp"
 
-CMakeFiles/artProgram.dir/folderSelect.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/artProgram.dir/folderSelect.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/kerrcameron/Documents/COMP SCI/artProgram/folderSelect.cpp" > CMakeFiles/artProgram.dir/folderSelect.cpp.i
+CMakeFiles/artProgram.dir/folderMethods.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/artProgram.dir/folderMethods.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/kerrcameron/Documents/COMP SCI/artProgram/folderMethods.cpp" > CMakeFiles/artProgram.dir/folderMethods.cpp.i
 
-CMakeFiles/artProgram.dir/folderSelect.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/artProgram.dir/folderSelect.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/kerrcameron/Documents/COMP SCI/artProgram/folderSelect.cpp" -o CMakeFiles/artProgram.dir/folderSelect.cpp.s
+CMakeFiles/artProgram.dir/folderMethods.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/artProgram.dir/folderMethods.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/kerrcameron/Documents/COMP SCI/artProgram/folderMethods.cpp" -o CMakeFiles/artProgram.dir/folderMethods.cpp.s
 
 # Object files for target artProgram
 artProgram_OBJECTS = \
 "CMakeFiles/artProgram.dir/main.cpp.o" \
 "CMakeFiles/artProgram.dir/paintMethods.cpp.o" \
 "CMakeFiles/artProgram.dir/coreMethods.cpp.o" \
-"CMakeFiles/artProgram.dir/folderSelect.cpp.o"
+"CMakeFiles/artProgram.dir/folderMethods.cpp.o"
 
 # External object files for target artProgram
 artProgram_EXTERNAL_OBJECTS =
@@ -131,7 +131,7 @@ artProgram_EXTERNAL_OBJECTS =
 artProgram: CMakeFiles/artProgram.dir/main.cpp.o
 artProgram: CMakeFiles/artProgram.dir/paintMethods.cpp.o
 artProgram: CMakeFiles/artProgram.dir/coreMethods.cpp.o
-artProgram: CMakeFiles/artProgram.dir/folderSelect.cpp.o
+artProgram: CMakeFiles/artProgram.dir/folderMethods.cpp.o
 artProgram: CMakeFiles/artProgram.dir/build.make
 artProgram: CMakeFiles/artProgram.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/kerrcameron/Documents/COMP SCI/artProgram/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable artProgram"

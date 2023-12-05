@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/artProgram.dir/coreMethods.cpp.o"
-  "CMakeFiles/artProgram.dir/folderSelect.cpp.o"
+  "CMakeFiles/artProgram.dir/folderMethods.cpp.o"
   "CMakeFiles/artProgram.dir/main.cpp.o"
   "CMakeFiles/artProgram.dir/paintMethods.cpp.o"
   "artProgram"

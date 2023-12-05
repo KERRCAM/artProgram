@@ -9,7 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/kerrcameron/Documents/COMP SCI/artProgram/coreMethods.cpp" "/Users/kerrcameron/Documents/COMP SCI/artProgram/cmake-build-debug/CMakeFiles/artProgram.dir/coreMethods.cpp.o"
-  "/Users/kerrcameron/Documents/COMP SCI/artProgram/folderSelect.cpp" "/Users/kerrcameron/Documents/COMP SCI/artProgram/cmake-build-debug/CMakeFiles/artProgram.dir/folderSelect.cpp.o"
+  "/Users/kerrcameron/Documents/COMP SCI/artProgram/folderMethods.cpp" "/Users/kerrcameron/Documents/COMP SCI/artProgram/cmake-build-debug/CMakeFiles/artProgram.dir/folderMethods.cpp.o"
   "/Users/kerrcameron/Documents/COMP SCI/artProgram/main.cpp" "/Users/kerrcameron/Documents/COMP SCI/artProgram/cmake-build-debug/CMakeFiles/artProgram.dir/main.cpp.o"
   "/Users/kerrcameron/Documents/COMP SCI/artProgram/paintMethods.cpp" "/Users/kerrcameron/Documents/COMP SCI/artProgram/cmake-build-debug/CMakeFiles/artProgram.dir/paintMethods.cpp.o"
   )

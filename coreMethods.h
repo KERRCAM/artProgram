@@ -3,9 +3,10 @@
 #include <iostream>
 using namespace std;
 
-string getString(string prompt);
 
-int getInt(string prompt);
+static string getString(string prompt);
+
+static int getInt(string prompt);
 
 
 #endif //ARTPROGRAM_COREMETHODS_H

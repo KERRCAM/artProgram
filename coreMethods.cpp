@@ -2,13 +2,13 @@
 
 class coreMethods{
 public:
-    string getString(string prompt){
+    static string getString(string prompt){
         bool valid = false;
         string answer;
-        while (valid == false){
+        while (!valid){
             cout << prompt << endl;
             cin >> answer;
-            if (answer != ""){
+            if (!answer.empty()){
                 valid = true;
             }else{
                 cout << "Cant accept empty string" << endl;
@@ -17,7 +17,7 @@ public:
         return answer;
     }
 
-    int getInt(string prompt){
+    static int getInt(string prompt){
         cout << prompt << endl;
         int answer;
         cin >> answer;

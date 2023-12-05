@@ -153,29 +153,29 @@ coreMethods.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/artProgram.dir/build.make CMakeFiles/artProgram.dir/coreMethods.cpp.s
 .PHONY : coreMethods.cpp.s
 
-folderSelect.o: folderSelect.cpp.o
-.PHONY : folderSelect.o
+folderMethods.o: folderMethods.cpp.o
+.PHONY : folderMethods.o
 
 # target to build an object file
-folderSelect.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/artProgram.dir/build.make CMakeFiles/artProgram.dir/folderSelect.cpp.o
-.PHONY : folderSelect.cpp.o
+folderMethods.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/artProgram.dir/build.make CMakeFiles/artProgram.dir/folderMethods.cpp.o
+.PHONY : folderMethods.cpp.o
 
-folderSelect.i: folderSelect.cpp.i
-.PHONY : folderSelect.i
+folderMethods.i: folderMethods.cpp.i
+.PHONY : folderMethods.i
 
 # target to preprocess a source file
-folderSelect.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/artProgram.dir/build.make CMakeFiles/artProgram.dir/folderSelect.cpp.i
-.PHONY : folderSelect.cpp.i
+folderMethods.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/artProgram.dir/build.make CMakeFiles/artProgram.dir/folderMethods.cpp.i
+.PHONY : folderMethods.cpp.i
 
-folderSelect.s: folderSelect.cpp.s
-.PHONY : folderSelect.s
+folderMethods.s: folderMethods.cpp.s
+.PHONY : folderMethods.s
 
 # target to generate assembly for a file
-folderSelect.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/artProgram.dir/build.make CMakeFiles/artProgram.dir/folderSelect.cpp.s
-.PHONY : folderSelect.cpp.s
+folderMethods.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/artProgram.dir/build.make CMakeFiles/artProgram.dir/folderMethods.cpp.s
+.PHONY : folderMethods.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -237,9 +237,9 @@ help:
 	@echo "... coreMethods.o"
 	@echo "... coreMethods.i"
 	@echo "... coreMethods.s"
-	@echo "... folderSelect.o"
-	@echo "... folderSelect.i"
-	@echo "... folderSelect.s"
+	@echo "... folderMethods.o"
+	@echo "... folderMethods.i"
+	@echo "... folderMethods.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -86,10 +86,10 @@
 		<Unit filename="/Users/kerrcameron/Documents/COMP SCI/artProgram/coreMethods.h">
 			<Option target="artProgram"/>
 		</Unit>
-		<Unit filename="/Users/kerrcameron/Documents/COMP SCI/artProgram/folderSelect.cpp">
+		<Unit filename="/Users/kerrcameron/Documents/COMP SCI/artProgram/folderMethods.cpp">
 			<Option target="artProgram"/>
 		</Unit>
-		<Unit filename="/Users/kerrcameron/Documents/COMP SCI/artProgram/folderSelect.h">
+		<Unit filename="/Users/kerrcameron/Documents/COMP SCI/artProgram/folderMethods.h">
 			<Option target="artProgram"/>
 		</Unit>
 		<Unit filename="/Users/kerrcameron/Documents/COMP SCI/artProgram/main.cpp">
