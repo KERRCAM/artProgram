@@ -4,9 +4,9 @@
 using namespace std;
 
 
-static string getString(string prompt);
+static string getString(const string& prompt);
 
-static int getInt(string prompt);
+static int getInt(const string& prompt);
 
 
 #endif //ARTPROGRAM_COREMETHODS_H

@@ -1,6 +1,5 @@
 #include <iostream>
 #include "coreMethods.h"
-#include "paintMethods.h"
 #include "folderMethods.h"
 using namespace std;
 
@@ -13,25 +12,24 @@ files(folderID, fileID, fileName)
 */
 
 int main() {
-    folderMethods FS;
     bool exit = false;
     while (!exit){
-        string answer = getString("What would you like to do? (enter number of action): \n (1)-Open folder \n (2)-Create new folder \n (3)-Delete folder \n (4)-Exit");
-        if (answer == "1"){
-            FS.openFolder();
+        int answer = getInt("What would you like to do? (enter number of action): \n (1)-Open folder \n (2)-Create new folder \n (3)-Delete folder \n (4)-Exit");
+        switch (answer){
+            case 1:
+                openFolder();
+                break;
+            case 2:
+                createFolder();
+                break;
+            case 3:
+                deleteFolder();
+                break;
+            case 4:
+                exit = true;
+                break;
         }
-        if (answer == "2"){
-            FS.createFolder();
-        }
-        if (answer == "3"){
-            FS.deleteFolder();
-        }
-        if (answer == "4"){
-            exit = true;
-        }
-        else{
-            cout << "please enter a valid number" << endl;
-        }
+        cout << "Please enter a valid number" << endl;
     }
 
     return 0;

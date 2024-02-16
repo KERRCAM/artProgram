@@ -1,7 +1,9 @@
 #include "folderMethods.h"
 #include "coreMethods.h"
 
-void folderMethods::readFolder(const string &folderName) { //may be easier to store file names in database along with folder too
+string folderNames[10] = {"","","","","","","","","",""};
+
+void readFolder(const string &folderName) { //may be easier to store file names in database along with folder too
     string fileNames[10] = {"", "", "", "", "", "", "", "", "", ""};
     string folderContents;
     ifstream folderReader(folderName);
@@ -22,7 +24,7 @@ void folderMethods::readFolder(const string &folderName) { //may be easier to st
     folderReader.close();
 }
 
-void folderMethods::openFolder() { //need to have sub menu for adding and deleting files within the folder
+void openFolder() { //need to have sub menu for adding and deleting files within the folder
     bool found = false;
     bool validFolder = false;
     for (int i = 0; i < 10; i++) {
@@ -51,7 +53,7 @@ void folderMethods::openFolder() { //need to have sub menu for adding and deleti
     }
 }
 
-void folderMethods::createFolder() {
+void createFolder() {
     bool found = false;
     int space = -1; //gets index of first empty spot if there is one
     string newFolder;
@@ -70,7 +72,7 @@ void folderMethods::createFolder() {
     }
 }
 
-void folderMethods::deleteFolder() {
+void deleteFolder() {
     bool found = false;
     for (int i = 0; i < 10; i++) {
         cout << "Folder " << i << ":" << folderNames[i] << "\n";
